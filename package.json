@@ -1,0 +1,42 @@
+{
+  "name": "calculadora-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test-jasmine": "jasmine",
+    "test-dev": "karma start",
+    "test": "karma start --single-run"
+  },
+  "keywords": [],
+  "author": "Diego Ramires <goncalves.ramires@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.4.0",
+    "jasmine": "^2.7.0",
+    "karma": "^1.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "watchify": "^3.9.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^14.4.0",
+    "jasmine": "^2.7.0",
+    "karma-browserify": "^5.1.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "^1.1.0",
+    "karma": "^1.7.0",
+    "watchify": "^3.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/code_diego/calculadora-js.git"
+  },
+  "bugs": {
+    "url": "https://gitlab.com/code_diego/calculadora-js/issues"
+  },
+  "homepage": "https://gitlab.com/code_diego/calculadora-js#README",
+  "description": ""
+}
