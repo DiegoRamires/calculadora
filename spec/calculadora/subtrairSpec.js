@@ -1,15 +1,15 @@
 describe('Suítes de teste de subtração', function(){
   var Calculadora = require('../../src/js/calculadora.js');
 
-  it('deve retornar 5 para 8 e 3', function() {
+  it('deve retornar 5 para subtraçõ entre 8 e 3', function() {
     expect(Calculadora.subtrair(8, 3)).toEqual(5);
   });
 
-  it('deve retornar 5 para 8 e 3 no formato texto', function(){
+  it('deve retornar 5 para subtração entre 8 e 3 no formato texto', function(){
     expect(Calculadora.subtrair(8, '3')).toEqual(5)
   });
 
-  it('deve retornar 3 para 5 e 2.5', function() {
+  it('deve retornar 2.5 para subtração entre 5 e 2.5', function() {
     expect(Calculadora.subtrair(5.5, 2.5)).toEqual(3);
     expect(Calculadora.subtrair('5.5', '2.5')).toEqual(3);
     expect(Calculadora.subtrair('5.5', 2.5)).toEqual(3);
